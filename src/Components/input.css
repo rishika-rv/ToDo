@@ -1,0 +1,63 @@
+ .todo{
+     background-color:rgba(240, 251, 251, 0.891);
+     text-align: center;
+     margin-top: 100px;
+     padding: 10px;
+ }
+ h2{
+    font-size: 3rem;
+ }
+ button{
+    padding: 5px;
+    border-radius: 7px ;
+    border: 1px solid grey;
+ }
+.add{
+    background-color: rgb(22, 183, 22);
+    font-weight: bold;
+    color: white;
+    padding: 7px;
+}
+.add:hover{
+    background-color: green;
+}
+#done{
+    background-color: rgb(0, 255, 98);
+
+}
+#done:hover{ 
+    background-color: rgba(14, 127, 14, 0.854);
+}
+#delete{
+    background-color: rgb(243, 44, 44);
+
+}
+#delete:hover{
+    background-color: brown;
+}
+input{
+    font-size: 1.7 rem;
+    padding: 6px;
+    border: 2px solid black;
+}
+li{
+    list-style: none;
+    font-size: 1.2rem;
+    border: 2px solid rgb(208, 204, 204);
+    background-color: rgba(237, 237, 237, 0.797);
+    margin: 2px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+     
+} 
+.btn{
+    display: flex;
+    gap:7px
+}
+*{
+    margin-left: 40px;
+    margin-right:40px ;
+}
