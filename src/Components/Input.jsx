@@ -15,6 +15,7 @@ export default function Input(){
     function handleSubmit(event){
         console.log(task)
         event.preventDefault();
+        if (task.trim() === "") return;
         const newTask=[...tasks,{text:task,done:false}]
         setTasks(newTask);
         localStorage.setItem("tasks",JSON.stringify(newTask))
