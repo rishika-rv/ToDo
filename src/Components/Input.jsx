@@ -5,7 +5,7 @@ export default function Input(){
     const[tasks,setTasks]=useState([])
 
     useEffect(()=>{
-        const AllTask=JSON.parse(localStorage.getItem("tasks"))
+        const AllTask=JSON.parse(localStorage.getItem("tasks")) || [];
         setTasks(AllTask)
     },[])
 
