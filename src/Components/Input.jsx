@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import "./Input.css"
+import "./input.css"
 export default function Input(){
     const[task,setTask]=useState("")
     const[tasks,setTasks]=useState([])
